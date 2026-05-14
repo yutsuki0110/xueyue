@@ -1,0 +1,49 @@
+{
+  "name": "Xueyue Lux Hex Pack V2 Layered Test",
+  "version": "0.1-test",
+  "structure": "base + transition + overlay + marker",
+  "format": "webp",
+  "base": [
+    "city_ground_base.webp",
+    "coast_base.webp",
+    "danger_ground_base.webp",
+    "desert_base.webp",
+    "forest_base.webp",
+    "grassland_base.webp",
+    "hills_base.webp",
+    "mountain_base.webp",
+    "ruins_ground_base.webp",
+    "snow_base.webp",
+    "unknown_base.webp"
+  ],
+  "transition": [
+    "coast_edge_grassland.webp",
+    "danger_edge_corruption.webp",
+    "desert_edge_mountain.webp",
+    "forest_edge_grassland.webp",
+    "forest_edge_mountain.webp",
+    "grassland_edge_coast.webp",
+    "grassland_edge_forest.webp",
+    "grassland_edge_mountain.webp",
+    "mountain_edge_snow.webp",
+    "ruins_edge_grassland.webp"
+  ],
+  "overlay": [
+    "city_overlay.webp",
+    "clue_obelisk_overlay.webp",
+    "danger_rift_overlay.webp",
+    "forest_dense_overlay.webp",
+    "harbor_overlay.webp",
+    "mountain_peak_overlay.webp",
+    "ruins_overlay.webp",
+    "sect_gate_overlay.webp"
+  ],
+  "marker": [
+    "current_location_pin.webp",
+    "danger_red.webp",
+    "fog_dark.webp",
+    "move_range_blue.webp",
+    "selected_gold.webp",
+    "unknown_shadow.webp"
+  ]
+}
