@@ -1,0 +1,40 @@
+{
+  "name": "Xueyue Lux Hex Pack V1 Mother Tiles",
+  "version": "1.0.0-mother",
+  "style": "lux_handpainted_2_5d_hex_strategy",
+  "format": [
+    "webp",
+    "png"
+  ],
+  "terrain": {
+    "grassland": [
+      "grassland_a.webp"
+    ],
+    "forest": [
+      "forest_a.webp"
+    ],
+    "mountain": [
+      "mountain_a.webp"
+    ],
+    "coast": [
+      "coast_a.webp"
+    ],
+    "desert": [
+      "desert_a.webp"
+    ],
+    "snow": [
+      "snow_a.webp"
+    ]
+  },
+  "landmarks": {
+    "ruins": "ruins.webp",
+    "sect_gate": "sect_gate.webp",
+    "danger_zone": "danger_zone.webp",
+    "harbor": "harbor.webp"
+  },
+  "recommendedFields": {
+    "terrain": "grassland/forest/mountain/coast/desert/snow",
+    "landmarkKey": "ruins/sect_gate/danger_zone/harbor",
+    "displayMode": "hex"
+  }
+}
