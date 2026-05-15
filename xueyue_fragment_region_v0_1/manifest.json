@@ -1,0 +1,37 @@
+{
+  "name": "Xueyue Fragment Region v0.1",
+  "version": "v0.1",
+  "map_level": "region",
+  "project_map_levels": [
+    "world",
+    "country",
+    "region"
+  ],
+  "canvas": {
+    "fragment_width": 384,
+    "fragment_height": 256
+  },
+  "fragments": [
+    "grassland.webp",
+    "forest.webp",
+    "mountain.webp",
+    "coast.webp",
+    "desert.webp",
+    "snow.webp",
+    "swamp.webp",
+    "volcano.webp",
+    "ruins.webp"
+  ],
+  "backgrounds": [
+    "mist_sea_dark.webp"
+  ],
+  "unknown_policy": {
+    "asset": "not included",
+    "method": "script overlay",
+    "description": "Unknown / hidden / locked should be rendered by CSS black fog mask + ? + shadowTitle/shadowDesc, not by replacing terrain image."
+  },
+  "recommended_cdn_after_upload": {
+    "fragmentCdnBase": "https://cdn.jsdelivr.net/gh/yutsuki0110/xueyue@main/xueyue_fragment_region_v0_1/fragments",
+    "backgroundCdnBase": "https://cdn.jsdelivr.net/gh/yutsuki0110/xueyue@main/xueyue_fragment_region_v0_1/backgrounds/mist_sea_dark.webp"
+  }
+}

@@ -1,0 +1,76 @@
+<MapInit>
+{
+  "world": "雪月世界",
+  "region": "雾海边境",
+  "localMap": "雾海边境 · 区域图",
+  "displayMode": "fragment",
+  "currentLocation": "grass_001",
+  "nodes": [
+    {
+      "id": "grass_001",
+      "name": "青霜草原",
+      "terrain": "grassland",
+      "q": 0,
+      "r": 0,
+      "visibility": "known",
+      "status": "known",
+      "desc": "雾海边缘的一片草坡，小路穿过石群向森林延伸。"
+    },
+    {
+      "id": "forest_001",
+      "name": "雾隐森林",
+      "terrain": "forest",
+      "q": 1,
+      "r": 0,
+      "visibility": "known",
+      "desc": "树冠遮住天光，林间有潮湿的旧路。"
+    },
+    {
+      "id": "mountain_001",
+      "name": "断崖山地",
+      "terrain": "mountain",
+      "q": 1,
+      "r": 1,
+      "visibility": "known",
+      "danger": "high",
+      "desc": "岩坡陡峭，碎石与雪痕交错。"
+    },
+    {
+      "id": "coast_001",
+      "name": "潮声海岸",
+      "terrain": "coast",
+      "q": 0,
+      "r": 1,
+      "visibility": "known",
+      "desc": "浅水拍打沙岸，礁石间有潮湿脚印。"
+    },
+    {
+      "id": "desert_001",
+      "name": "金沙荒漠",
+      "terrain": "desert",
+      "q": 2,
+      "r": 1,
+      "visibility": "known",
+      "desc": "风在沙丘间留下波纹，远处有干涸绿洲。"
+    },
+    {
+      "id": "ruins_001",
+      "name": "古迹残垣",
+      "terrain": "ruins",
+      "q": 2,
+      "r": 2,
+      "visibility": "visible_unknown",
+      "shadowTitle": "？？？",
+      "shadowDesc": "黑雾遮住了残墙轮廓，只能看见断裂的石阶。",
+      "desc": "这里真实是古迹残垣，但未知状态下不应展示。"
+    }
+  ],
+  "edges": [
+    {"from": "grass_001", "to": "forest_001"},
+    {"from": "grass_001", "to": "coast_001"},
+    {"from": "forest_001", "to": "mountain_001"},
+    {"from": "forest_001", "to": "desert_001"},
+    {"from": "desert_001", "to": "ruins_001", "state": "hidden"}
+  ]
+}
+</MapInit>
